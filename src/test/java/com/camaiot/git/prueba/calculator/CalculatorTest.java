@@ -24,6 +24,9 @@ public class CalculatorTest {
 
     @Test
     public void substract() throws Exception {
+        Double actual = calculator.substract(Double.valueOf(7), Double.valueOf(5));
+        Double expected = Double.valueOf(2);
+        assertEquals(expected, actual);
     }
 
 }
