@@ -2,7 +2,6 @@ package com.camaiot.git.prueba.calculator;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.springframework.util.Assert;
 
 import static org.junit.Assert.*;
 
